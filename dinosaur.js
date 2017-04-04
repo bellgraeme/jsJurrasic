@@ -1,4 +1,4 @@
-var Dinosaur = function (name, birthRate){
+var Dinosaur = function (name, birthRate){  
   this.name = name;
   this.birthRate = birthRate;
 
