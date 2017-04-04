@@ -14,5 +14,10 @@ it('dino has type', function(){
   assert.strictEqual('Chasmosuarus', dino.name);
 })
 
+it('dino has birthrate', function(){
+
+  assert.strictEqual(4, dino.birthRate);
+})
+
 
 })
