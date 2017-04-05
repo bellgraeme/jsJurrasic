@@ -4,6 +4,11 @@ var Dinosaur = function (name, birthRate){
 
 }
 
+Dinosaur.prototype = {
+  birthRate: function(){
+    return this.birthRate;
+  }
+}
 
 
 
